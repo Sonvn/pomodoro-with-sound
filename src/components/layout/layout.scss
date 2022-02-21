@@ -1,0 +1,29 @@
+.lf-background {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-bottom: calc(100% * 9 / 16);
+
+  .bg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+  }
+
+  .youtube-player {
+    width: 100% !important;
+    height: 100% !important;
+    filter: blur(1px);
+    //animation: blur 10ms infinite, jerk 3s infinite;
+    animation: jerk 3s infinite;
+  }
+
+  .background-sounds {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,5 @@
+node_modules
+public/bundle.*
+.idea
+public/sys-*.ttf
+public/terminal_copy-*.ttf

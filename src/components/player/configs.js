@@ -1,0 +1,43 @@
+export const sounds = [{
+  file: '/sounds/birds.mp3',
+  name: 'birds',
+}, {
+  file: '/sounds/cafeteria-3.mp3',
+  name: 'cafeteria-3',
+}, {
+  file: '/sounds/city-park-5.mp3',
+  name: 'city-park-5',
+}, {
+  file: '/sounds/fire.mp3',
+  name: 'fire',
+}, {
+  file: '/sounds/rain-inside-car-2.mp3',
+  name: 'rain-inside-car-2',
+}, {
+  file: '/sounds/rain-medium.mp3',
+  name: 'rain-medium',
+}, {
+  file: '/sounds/river-medium-2.mp3',
+  name: 'river-medium-2',
+}, {
+  file: '/sounds/stream-14.mp3',
+  name: 'stream-14',
+}, {
+  file: '/sounds/thunder-close-4.mp3',
+  name: 'thunder-close-4',
+}, {
+  file: '/sounds/traffic-medium-2.mp3',
+  name: 'traffic-medium-2',
+}, {
+  file: '/sounds/vinyl-noise.mp3',
+  name: 'vinyl-noise',
+}, {
+  file: '/sounds/walking-forest-6.mp3',
+  name: 'walking-forest-6',
+}, {
+  file: '/sounds/walking-ocean-2.mp3',
+  name: 'walking-ocean-2',
+}, {
+  file: '/sounds/wave-light.mp3',
+  name: 'wave-light',
+}, ];

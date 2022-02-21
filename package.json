@@ -1,0 +1,29 @@
+{
+  "name": "liofo",
+  "version": "0.0.1",
+  "description": "",
+  "repository": "",
+  "author": "sonvn <vungocson94@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./esbuild.config.js --dev",
+    "build": "node ./esbuild.config.js",
+    "deploy": "surge public/ liofo.surge.sh"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.17",
+    "lodash": "^4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
+    "sass": "^1.49.0"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.14.14",
+    "esbuild-plugin-sass": "^1.0.1",
+    "live-server": "^1.2.1"
+  }
+}

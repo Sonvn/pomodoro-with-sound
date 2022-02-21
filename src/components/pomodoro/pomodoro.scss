@@ -1,0 +1,15 @@
+.pomodoro-fv4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 5px;
+
+  .time-remaining {
+    font-size: 24px;
+  }
+
+  svg {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+}
